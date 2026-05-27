@@ -41,7 +41,7 @@ a {
   justify-content: space-between;
   gap: 24px;
   min-height: 136px;
-  padding: 8px clamp(18px, 4vw, 56px);
+  padding: 4px clamp(18px, 4vw, 56px);
   background: var(--white);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(12px);
@@ -52,8 +52,8 @@ a {
 }
 
 .brand img {
-  width: 178px;
-  height: 116px;
+  width: 198px;
+  height: 128px;
   object-fit: contain;
 }
 
@@ -451,6 +451,7 @@ h3 {
 }
 
 .project-row img.project-diagram {
+  height: auto;
   max-height: none;
   object-fit: contain;
   background: var(--white);
