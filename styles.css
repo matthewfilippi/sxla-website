@@ -377,6 +377,23 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.page-hero img.sta-logo-lockup {
+  width: min(360px, 100%);
+  max-height: none;
+  margin: 0 0 22px;
+  object-fit: contain;
+  border-radius: 0;
+  box-shadow: none;
+  mix-blend-mode: multiply;
+}
+
+.page-hero img.sta-hero-graphic {
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  background: var(--white);
+}
+
 .page-hero h1 {
   color: var(--navy);
   font-size: clamp(2.2rem, 5vw, 4.9rem);
